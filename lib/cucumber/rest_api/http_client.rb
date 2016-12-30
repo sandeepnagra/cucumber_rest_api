@@ -5,7 +5,7 @@ require "json"
 
 class Object
 
-  @headers == nil
+  @headers = nil
 
   def blank?
     respond_to?(:empty?) ? empty? : !self
