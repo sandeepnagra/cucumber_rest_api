@@ -83,7 +83,7 @@ class Object
     else
       body = request_opts[:input]
     end
-    return request, body
+    return body
   end
 
 end
